@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(59, 13, 167, 0.5);
+    color: #2e0aaf;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+header.navbar-transparent {
+    background-color: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #080684;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: #f44336;
+}
+
+nav ul li a.active {
+    color: #f44336;
+}
+
+section {
+    padding: 20px;
+    color: #333;
+    background-color: rgba(36, 5, 136, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #3f0787;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #1f0894;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
